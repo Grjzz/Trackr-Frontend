@@ -1,0 +1,33 @@
+.sidebar {
+  background-color: #fde3cf; // light peach
+  height: 100vh;
+  padding: 20px 16px;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 24px;
+  }
+
+  .ant-menu {
+    border-inline-end: none; // remove default border
+    background-color: transparent;
+  }
+
+  .ant-menu-item {
+    margin-bottom: 8px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 15px;
+
+    a {
+      color: #000;
+    }
+
+    &:hover {
+      background-color: #fff5e6;
+    }
+  }
+}

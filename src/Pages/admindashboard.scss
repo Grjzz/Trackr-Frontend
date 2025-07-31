@@ -1,0 +1,38 @@
+.dashboard {
+  padding: 24px;
+
+  .dashboard-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 500;
+  }
+
+  .activity-log {
+    .log-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 12px;
+
+      .log-title {
+        font-weight: 500;
+      }
+
+      .log-icon {
+        font-size: 20px;
+      }
+    }
+
+    .log-card {
+      background-color: #e6f4ff; // light blue
+      border: none;
+      padding: 16px;
+
+      .log-entry {
+        font-size: 16px;
+        margin: 8px 0;
+        line-height: 1.6;
+      }
+    }
+  }
+}
